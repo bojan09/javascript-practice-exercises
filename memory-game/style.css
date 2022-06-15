@@ -1,11 +1,15 @@
-body{
-    display: grid;
-    place-items: center;
+html{
+    font-size: 62.5%;
 }
 
+
 #grid{
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 40rem;
+    max-height: 30rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+#grid *{
+    margin: .5rem;
 }
